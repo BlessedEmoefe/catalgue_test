@@ -1,11 +1,10 @@
 import React from "react";
-import { BrowserRouter, Route, Routes, Outlet } from "react-router-dom";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 import {
   // ErrorPage,
   Home,
-  Cart
+  Cart,
 } from "../../pages/index.jsx";
-
 
 const Router = () => {
   return (
